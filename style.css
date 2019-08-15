@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: lightpurple; 
+    font-family: Karla;
+    font-size: 22px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: auto auto;
+} 
+
+::-moz-selection { 
+    background-color: #21203c;
+    color: #fff;
+    text-shadow: none;
+} 
+
+::selection { 
+    background-color: #21203c;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/* ------------------------------ */
+/* NAVIGATION */
+/* ------------------------------ */
+
+nav {
+    height: 55px;
+    padding: 15px;
+    background-color: #21203c;
+    position: fixed;
+    width: 100%;
+    font-size: 95%;
+    top: 0;
+    /* box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.31); */
+    z-index: 1;
+}
+
+.nav-links {
+    float: right;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding-left: 20px;
+    border-top-width: 3px;
+    border-top-color: #fff;
+}
+
+.nav-name {
+    color: #fff;
+    float: left;
+} 
+
+
+/* ------------------------------ */
+/* HEADER */
+/* ------------------------------ */
+
+.header-text p {
+    font-size: 26vh;
+    color: #fff;
+    text-shadow: 6px 6px #3a3872;
+    -webkit-transition: text-shadow 0.2s ease, color 0.2s ease;
+    transition: text-shadow 0.2s ease, color 0.2s ease;
+    cursor: default;
+}
+
+.header-text p:hover {
+    color: #3a3872;
+    text-shadow: 6px 6px #fff;
+}
+
+.header-text {
+    display: inline-block;
+    text-align: left;
+    padding-top: 10%;
+}
+
+.hero-text { text-align: center; } 
+
+header {
+    background-color: #B7A9F4;
+    background-size: cover; 
+    height: 100vh;
+}
+
+/* ------------------------------ */
+/* UNIVERSAL */
+/* ------------------------------ */
+
+h1 { font-size: 10vh; }
+
+h2 {
+    font-size: 300%;
+    margin-bottom: 6vh;
+}
+
+h3 { font-size: 150%; }
+
+p { font-size: 100%; }
+
+section {
+    padding: 6vh;
+}
+
+a:link,
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: text-shadow 0.2s ease;
+    transition: text-shadow 0.2s ease;
+}
+
+a:hover,
+a:active { text-shadow: 2px 2px #B7A9F4; }
+
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* --------- HOME PAGE ---------  */
+/* ------------------------------ */
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* WHO AM I */
+/* ------------------------------ */
+
+.who-am-i {
+    background-color: #3a3872;
+    color: #B7A9F4;
+}
+
+.who-am-i h2 {
+    width: 50%;
+    color: #fff;
+    text-shadow: 3px 3px #B7A9F4;
+}
+
+.who-am-i p {
+    margin-right: -20%;
+}
+
+.who-am-i img {
+    width: auto;
+    height: 58vh;
+    margin-left: 20%;
+    margin-bottom: 6vh;
+    -webkit-box-shadow: 15px 15px #B7A9F4;
+    box-shadow: 15px 15px #B7A9F4;
+    -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.who-am-i img:hover {
+    -webkit-box-shadow: 0 0 0 6px #B7A9F4;
+    box-shadow: 0 0 0 6px #B7A9F4;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+
+/* ------------------------------ */
+/* WHAT I DO */
+/* ------------------------------ */
+
+.what-i-do {
+    background-color: #B7A9F4;
+    color: #3a3872;
+}
+
+.what-i-do h2 {
+    width: 100%;
+    text-shadow: 3px 3px #3a3872;
+    color: #fff;
+}
+
+.what-i-do img {
+    width: auto;
+    height: 58vh;
+}
+
+.what-i-do p {
+    /*margin-right: 20%;
+    margin-left: -40%;*/
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6vh;
+    padding: 6vh;
+    background-color: #3a3872;
+    color: #B7A9F4;
+    -webkit-box-shadow: 15px 15px #fff;
+    box-shadow: 15px 15px #fff;
+    -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.what-i-do p:hover {
+    -webkit-box-shadow: 0 0 0 6px #fff;
+    box-shadow: 0 0 0 6px #fff;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.what-i-do-img {
+   /* box-shadow: 10px -10px #3a3872; */
+    -webkit-box-shadow: 15px 15px #3a3872;
+    box-shadow: 15px 15px #3a3872;
+    -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.what-i-do-img:hover {
+    -webkit-box-shadow: 0 0 0 6px #3a3872;
+    box-shadow: 0 0 0 6px #3a3872;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+
+/* ------------------------------ */
+/* HOW DO I DO IT */
+/* ------------------------------ */
+
+.how-i-do-it { background-color: #3a3872; }
+
+.how-i-do-it div { padding: 0 2vh 2vh 2vh; }
+
+.how-i-do-it h2 {
+    width: 100%;
+    color: #fff;
+    text-shadow: 3px 3px #B7A9F4;
+}
+
+.how-i-do-it h3 { 
+    color: #fff; 
+    padding-top: 2vh; 
+}
+
+
+/* .how3 h3 {
+    color: #3a3872; 
+    padding: 6vh;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 300%;
+} */
+
+
+.how-i-do-it p {
+    color: #3a3872;
+    font-size: 90%;
+}
+
+.how-content {
+    background-color: #B7A9F4;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0px 6px 6px 8px;
+    -webkit-box-shadow: 10px 10px #fff;
+    box-shadow: 10px 10px #fff;
+    -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    width: 70%;
+    height: 160px;
+}
+
+.how-content:hover { -webkit-box-shadow: 0 0 0 4px #fff; box-shadow: 0 0 0 4px #fff; -webkit-transform: scale(1.05); transform: scale(1.05)}
+
+.left-box { margin-left: 40px; }
+
+.how-i-do-it-img {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 10px 10px #B7A9F4;
+    box-shadow: 10px 10px #B7A9F4;
+    padding: 0;
+    margin-bottom: 15px;
+    -webkit-transition: -webkit-box-shadow 0.2s ease;
+    transition: -webkit-box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}
+
+.how-i-do-it-img:hover { -webkit-box-shadow: 0 0 0 4px #B7A9F4; box-shadow: 0 0 0 4px #B7A9F4; }
+
+
+/* ------------------------------ */
+/* FEATURED PROJECTS */
+/* ------------------------------ */
+
+.featured-projects {
+    background-color: #B7A9F4;
+}
+
+.featured-projects h2 {
+    color: #fff;
+    text-shadow: 3px 3px #3a3872;
+    /* border-bottom: 3px solid #3a3872; */
+    padding-bottom: 10px;
+}
+
+.featured-projects h3 {
+    text-align: left;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.featured-projects p {
+    text-align: left;
+    color: #3a3872;
+    margin: 0 auto;
+    font-size: 90%;
+    padding-bottom: 2vh;
+}
+
+.project-thumbnail {
+    display: block;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.fp-thumbnail {
+    height: auto;
+    width: 100%;
+    -webkit-box-shadow: 10px 10px #3a3872;
+    box-shadow: 10px 10px #3a3872;
+    margin-bottom: 15px;
+    -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.fp-thumbnail:hover {
+    /* box-shadow: 10px 10px 0px 6px #3a3872; */
+    -webkit-box-shadow: 0px 0px 0px 4px #3a3872;
+    box-shadow: 0px 0px 0px 4px #3a3872;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* ------------------------------ */
+/* FOOTER */
+/* ------------------------------ */
+
+footer {
+    background-color: #21203c;
+    padding: 8vh;
+}
+
+.name-logo {
+    font-size: 300%;
+    font-weight: bold;
+    float: left;
+    text-shadow: 0px 0px #B7A9F4;
+    -webkit-transition: text-shadow 0.2s ease, color 0.2s ease;
+    transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+.name-logo:hover {
+    text-shadow: 3px 3px #B7A9F4;
+    color: #fff;
+}
+
+.bottom-nav {
+    margin-top: 5%;
+}
+
+.bottom-nav li {
+    list-style: none;
+    float: right;
+    padding-right: 5%;
+}
+
+.social-links li {
+    font-size: 120%;
+    list-style: none;
+    float: right;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+

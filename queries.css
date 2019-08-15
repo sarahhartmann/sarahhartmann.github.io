@@ -1,0 +1,341 @@
+
+
+/* Big tablet to 1200px: from 1024 to 1200px (leaves margins btwn tablet and desktop - widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    /* .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    } */
+    
+    section {
+        padding: 6vh 6vh;
+    }
+    
+    .header-text p {
+        font-size: 22vh;
+        padding-left: 8%;
+        padding-top: 3vh; 
+    }
+    
+    .who-am-i h2 { width: 100% }
+    
+    .who-am-i p {
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+
+    .who-am-i img {
+        width: 90%;
+        height: auto;
+        margin-left: 4vh;
+        -webkit-box-shadow: 15px 15px #B7A9F4;
+        box-shadow: 15px 15px #B7A9F4;
+        -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    }
+    
+    .what-i-do h2 { width: 100% }
+    
+    .what-i-do p {
+        width: 60%;
+    }
+    
+    .what-i-do img {
+        width: 80%;
+        height: auto;
+    }
+    
+    .how-content {
+        padding: 0px 6px 6px 8px;
+        -webkit-box-shadow: 10px 10px #fff;
+        box-shadow: 10px 10px #fff;
+        -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        width: 100%;
+        height: 150px;
+    }
+    
+    .featured-projects h2 { margin-bottom: 0; }
+    
+    .featured-projects h3 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .featured-projects p {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .fp-thumbnail {
+        height: auto;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        -webkit-box-shadow: 10px 10px #3a3872;
+        box-shadow: 10px 10px #3a3872;
+        margin-bottom: 15px;
+        -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    }
+    
+    .name-logo { 
+        font-size: 200%; 
+    }
+    
+    .bottom-nav li {
+        list-style: none;
+        padding-right: 5%;
+    }
+
+    .social-links li {
+        list-style: none;
+        padding-right: 10%;
+        padding-top: 20px;
+    }
+}
+    
+
+/* iPad in portrait mode/small tablet to big tablet: from 768 to 1023px (iPad landscape view: 1024px) */
+@media only screen and (max-width: 1023px) {
+   /* .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+    
+    section {
+        padding: 4vh 6vh;
+    }
+    
+    .header-text p {
+        font-size: 22vh;
+        color: #fff;
+        padding-left: 8%;
+        padding-top: 4vh; 
+        text-shadow: 6px 6px #3a3872;
+        transition: text-shadow 0.2s ease, color 0.2s ease;
+    }
+    
+    .who-am-i p {
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+
+    .who-am-i img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 15px 15px #B7A9F4;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+    
+    .what-i-do h2 { width: 100% }
+    
+    .what-i-do p {
+        width: 100%;
+        margin: 4vh 0 0 0;
+    }
+    
+    .what-i-do img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .featured-projects h2 { margin-bottom: 4vh; }
+    
+    .featured-projects h3 {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .featured-projects p {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .fp-thumbnail {
+        height: auto;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 10px 10px #3a3872;
+        margin-bottom: 15px;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+    
+    .name-logo { 
+        font-size: 200%; 
+    }
+    
+    .bottom-nav li {
+        list-style: none;
+        float: left;
+        padding-right: 5%;
+    }
+
+    .social-links li {
+        list-style: none;
+        float: left;
+        padding-right: 10%;
+        padding-top: 20px;
+        margin-top: 5%
+    } */
+    
+    .how-content {
+        padding: 0px 6px 6px 8px;
+        -webkit-box-shadow: 10px 10px #fff;
+        box-shadow: 10px 10px #fff;
+        -webkit-transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+        height: 22vh;
+    }
+    
+}
+
+    
+/* Phones smaller than the iPad: from 481 to 767px (iPad width: 768px) */
+@media only screen and (max-width: 767px) {
+    
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+    
+    nav {
+        height: 50px;
+        padding: 15px;
+        font-size: 78%;
+    }
+    
+    .nav-links li { padding-left: 8px; }
+    
+    .header-text p {
+        font-size: 15vh;
+        padding-left: 8%;
+        padding-top: 16vh; 
+    }
+    
+    .who-am-i { padding-bottom: 10vh; }
+    
+    .who-am-i h2 { width: 100%; }
+    
+    .who-am-i img { 
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .what-i-do h2 { width: 100%; }
+    
+    .what-i-do img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .what-i-do p { 
+        margin: 0 auto; 
+        width: 100%;
+    }
+    
+    .left-box { margin-top: -20px; }
+    
+    .project-thumbnail {
+        display: block;
+        margin: 0 auto;
+        padding: 4vh 2% 0 2%;
+    }
+    
+    .name-logo { font-size: 200%; }
+    
+    .bottom-nav li {
+        list-style: none;
+        float: left;
+        padding-right: 5%;
+    }
+
+    .social-links li {
+        list-style: none;
+        float: left;
+        padding-right: 10%;
+        padding-top: 20px;
+        margin-top: 5%
+    }
+    
+}
+
+    
+/* Small phones: from 0 to 480px (iPhone 4-5 width: ~479px) */
+@media only screen and (max-width: 480px) {
+    nav {
+        height: 46px;
+        padding: 15px;
+        font-size: 65%;
+    }
+    
+    .nav-links li { padding-left: 4px; }
+    
+    .who-am-i h2 { font-size: 180%; }
+    
+    .who-am-i p { font-size: 80%; }
+    
+    .what-i-do h2 { font-size: 180%; }
+    
+    .what-i-do p { font-size: 80%; }
+    
+    .how-i-do-it h2 { font-size: 180%; }
+    
+    .how-i-do-it p { font-size: 80%; }
+    
+    .how-i-do-it h3 { font-size: 120%; }
+    
+    /* .how3 h3 { 
+        font-size: 150%; padding: 8vh 4vh;} */
+    
+    .left-box { margin-top: -12px; }
+    
+    .how-content { 
+        height: 50vw; }
+    
+    .featured-projects h2 { font-size: 180%; }
+    
+    .featured-projects h3 { font-size: 120%; }
+    
+    .featured-projects p { font-size: 80%; }
+    
+    .name-logo { font-size: 160%; }
+    
+    .bottom-nav li {
+        list-style: none;
+        font-size: 78%;
+        float: left;
+        padding-right: 5%;
+    }
+
+    .social-links li {
+        list-style: none;
+        float: left;
+        padding-right: 10%;
+        padding-top: 18px;
+        margin-top: 0;
+        font-size: 78%;
+    }
+    
+}
+    
+    
