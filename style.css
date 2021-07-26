@@ -82,6 +82,7 @@ nav {
 
 .header-text p {
     font-size: 26vh;
+    font-weight: bold;
     color: #fff;
     text-shadow: 6px 6px #3a3872;
     -webkit-transition: text-shadow 0.2s ease, color 0.2s ease;
