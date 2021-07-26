@@ -297,7 +297,7 @@ a:active { text-shadow: 2px 2px #B7A9F4; }
     transition: box-shadow 0.2s ease, transform 0.2s ease;
     transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
     width: 70%;
-    height: 400px;
+    height: 350px;
 }
 
 .how-content:hover { -webkit-box-shadow: 0 0 0 4px #fff; box-shadow: 0 0 0 4px #fff; -webkit-transform: scale(1.05); transform: scale(1.05)}
