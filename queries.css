@@ -57,7 +57,7 @@
         transition: box-shadow 0.2s ease, transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
         width: 100%;
-        height: 85vw;
+        height: 100vw;
     }
     
     .featured-projects h2 { margin-bottom: 0; }
@@ -203,7 +203,7 @@
         transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-        height: 85vw;
+        height: 100vw;
     }
     
 }
@@ -255,7 +255,7 @@
     }
     
     .how-content {
-        height: 85vw;
+        height: 100vw;
     }
     
     .left-box { margin-top: -20px; }
@@ -315,7 +315,7 @@
     .left-box { margin-top: -12px; }
     
     .how-content { 
-        height: 85vw; }
+        height: 100vw; }
     
     .featured-projects h2 { font-size: 180%; }
     
