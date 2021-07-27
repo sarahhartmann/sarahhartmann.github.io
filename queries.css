@@ -203,7 +203,7 @@
         transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-        height: 260px;
+        height: 3vw;
     }
     
 }
@@ -252,6 +252,10 @@
     .what-i-do p { 
         margin: 0 auto; 
         width: 100%;
+    }
+    
+    .how-content {
+        height: 3vw;
     }
     
     .left-box { margin-top: -20px; }
@@ -311,7 +315,7 @@
     .left-box { margin-top: -12px; }
     
     .how-content { 
-        height: 260px; }
+        height: 3vw; }
     
     .featured-projects h2 { font-size: 180%; }
     
