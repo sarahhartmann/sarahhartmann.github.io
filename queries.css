@@ -203,7 +203,7 @@
         transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-        height: 280px;
+        height: 80vw;
     }
     
 }
