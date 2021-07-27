@@ -255,11 +255,11 @@
     }
     
     #how1 {
-        height: 50vw;
+        height: 10vh;
     }
     
     #how2 {
-        height: 80vw;
+        height: 30vh;
     }
     
     .left-box { margin-top: -20px; }
@@ -319,11 +319,11 @@
     .left-box { margin-top: -12px; }
     
     #how1 {
-        height: 50vw;
+        height: 10vh;
     }
     
     #how2 {
-        height: 80vw;
+        height: 30vh;
     }
     
     .featured-projects h2 { font-size: 180%; }
