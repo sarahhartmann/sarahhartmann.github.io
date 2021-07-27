@@ -57,7 +57,7 @@
         transition: box-shadow 0.2s ease, transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
         width: 100%;
-        height: 80vw;
+        height: 100vw;
     }
     
     .featured-projects h2 { margin-bottom: 0; }
@@ -203,7 +203,7 @@
         transition: -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease;
         transition: box-shadow 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-        height: 80vw;
+        height: 100vw;
     }
     
 }
@@ -255,11 +255,11 @@
     }
     
     #how1 {
-        height: 10vh;
+        height: 30vw;
     }
     
     #how2 {
-        height: 30vh;
+        height: 60vw;
     }
     
     .left-box { margin-top: -20px; }
@@ -319,11 +319,11 @@
     .left-box { margin-top: -12px; }
     
     #how1 {
-        height: 10vh;
+        height: 40vw;
     }
     
     #how2 {
-        height: 30vh;
+        height: 70vw;
     }
     
     .featured-projects h2 { font-size: 180%; }
